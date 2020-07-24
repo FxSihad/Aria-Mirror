@@ -18,34 +18,13 @@ This project is heavily inspired from @out386 's telegram bot which is written i
 
 # Upcoming features (TODOs):
 
-# How to deploy?
-Deploying is pretty much straight forward and is divided into several steps as follows:
-## Installing requirements
+# How to deploy in Heroku?
+Hit the deploy to heroku button and follow the further instructions in the screen:
 
-- Clone this repo:
-```
-git clone https://github.com/lzzy12/python-aria-mirror-bot mirror-bot/
-cd mirror-bot
-```
+**NB: Usage of Aria2 may leads to the suspension of your heroku account so deploy at your own risk.**
 
-- Install requirements
-For Debian based distros
-```
-sudo apt install python3
-sudo snap install docker 
-```
-- For Arch and it's derivatives:
-```
-sudo pacman -S docker python
-```
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BianSepang/Mirror-Aria/tree/master)
 
-## Setting up config file
-```
-cp config_sample.env config.env
-```
-- Remove the first line saying:
-```
-_____REMOVE_THIS_LINE_____=True
 ```
 Fill up rest of the fields. Meaning of each fields are discussed below:
 - **BOT_TOKEN** : The telegram bot token that you get from @BotFather
@@ -79,20 +58,6 @@ Note: You can limit maximum concurrent downloads by changing the value of MAX_CO
 ```
 pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 python3 generate_drive_token.py
-```
-## Deploying
-
-- Start docker daemon (skip if already running):
-```
-sudo dockerd
-```
-- Build Docker image:
-```
-sudo docker build . -t mirror-bot
-```
-- Run the image:
-```
-sudo docker run mirror-bot
 ```
 
 # Using service accounts for uploading to avoid user rate limit
