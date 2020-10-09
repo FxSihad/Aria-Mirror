@@ -23,7 +23,7 @@ Hit the deploy to heroku button and follow the further instructions in the scree
 
 **NB: Usage of Aria2 may leads to the suspension of your heroku account so deploy at your own risk.**
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BianSepang/Mirror-Aria/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fchrz/Aria-Mirror)
 
 ```
 Fill up rest of the fields. Meaning of each fields are discussed below:
