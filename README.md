@@ -23,7 +23,7 @@ Hit the deploy to heroku button and follow the further instructions in the scree
 
 **NB: Usage of Aria2 may leads to the suspension of your heroku account so deploy at your own risk.**
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fchrz/Aria-Mirror)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FxSihad/Aria-Mirror)
 
 ```
 Fill up rest of the fields. Meaning of each fields are discussed below:
@@ -62,7 +62,7 @@ python3 generate_drive_token.py
 
 # Using service accounts for uploading to avoid user rate limit
 For Service Account to work, you must set USE_SERVICE_ACCOUNTS="True" in config file or environment variables
-Many thanks to [AutoRClone](https://github.com/xyou365/AutoRclone) for the scripts
+Many thanks to [AutoRClone](https://github.com/FxSihad/AutoRclone) for the scripts
 ## Generating service accounts
 Step 1. Generate service accounts [What is service account](https://cloud.google.com/iam/docs/service-accounts)
 ---------------------------------
